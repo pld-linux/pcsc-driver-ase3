@@ -1,5 +1,5 @@
 Summary:	PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe reader
-Summary(pl):	Sterownik PC/SC Lite dla czytnika Athena Smartcard Solutions ASEDriveIIIe
+Summary(pl.UTF-8):   Sterownik PC/SC Lite dla czytnika Athena Smartcard Solutions ASEDriveIIIe
 Name:		pcsc-driver-ase3
 Version:	1.9.1
 Release:	1
@@ -17,13 +17,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PC/SC Lite drivers for the Athena Smartcard Solutions ASEDriveIIIe
 reader.
 
-%description -l pl
+%description -l pl.UTF-8
 Sterowniki PC/SC Lite dla czytnika Athena Smartcard Solutions
 ASEDriveIIIe.
 
 %package serial
 Summary:	PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe serial reader
-Summary(pl):	Sterownik PC/SC Lite dla czytnika szeregowego Athena Smartcard Solutions ASEDriveIIIe
+Summary(pl.UTF-8):   Sterownik PC/SC Lite dla czytnika szeregowego Athena Smartcard Solutions ASEDriveIIIe
 Group:		Libraries
 Requires:	pcsc-lite >= 1.2.0
 
@@ -31,13 +31,13 @@ Requires:	pcsc-lite >= 1.2.0
 PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe
 reader connected to serial port.
 
-%description serial -l pl
+%description serial -l pl.UTF-8
 Sterownik PC/SC Lite dla czytnika Athena Smartcard Solutions
-ASEDriveIIIe pod³±czanego do portu szeregowego.
+ASEDriveIIIe podÅ‚Ä…czanego do portu szeregowego.
 
 %package usb
 Summary:	PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe USB reader
-Summary(pl):	Sterownik PC/SC Lite dla czytnika USB Athena Smartcard Solutions ASEDriveIIIe
+Summary(pl.UTF-8):   Sterownik PC/SC Lite dla czytnika USB Athena Smartcard Solutions ASEDriveIIIe
 Group:		Libraries
 Requires:	pcsc-lite >= 1.2.0
 
@@ -45,9 +45,9 @@ Requires:	pcsc-lite >= 1.2.0
 PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe
 reader connected to USB port.
 
-%description usb -l pl
+%description usb -l pl.UTF-8
 Sterownik PC/SC Lite dla czytnika Athena Smartcard Solutions
-ASEDriveIIIe pod³±czanego do portu USB.
+ASEDriveIIIe podÅ‚Ä…czanego do portu USB.
 
 %prep
 %setup -q -c
