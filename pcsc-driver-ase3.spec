@@ -1,5 +1,5 @@
 Summary:	PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe reader
-Summary(pl.UTF-8):   Sterownik PC/SC Lite dla czytnika Athena Smartcard Solutions ASEDriveIIIe
+Summary(pl.UTF-8):	Sterownik PC/SC Lite dla czytnika Athena Smartcard Solutions ASEDriveIIIe
 Name:		pcsc-driver-ase3
 Version:	1.9.1
 Release:	1
@@ -23,7 +23,7 @@ ASEDriveIIIe.
 
 %package serial
 Summary:	PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe serial reader
-Summary(pl.UTF-8):   Sterownik PC/SC Lite dla czytnika szeregowego Athena Smartcard Solutions ASEDriveIIIe
+Summary(pl.UTF-8):	Sterownik PC/SC Lite dla czytnika szeregowego Athena Smartcard Solutions ASEDriveIIIe
 Group:		Libraries
 Requires:	pcsc-lite >= 1.2.0
 
@@ -37,7 +37,7 @@ ASEDriveIIIe podłączanego do portu szeregowego.
 
 %package usb
 Summary:	PC/SC Lite driver for the Athena Smartcard Solutions ASEDriveIIIe USB reader
-Summary(pl.UTF-8):   Sterownik PC/SC Lite dla czytnika USB Athena Smartcard Solutions ASEDriveIIIe
+Summary(pl.UTF-8):	Sterownik PC/SC Lite dla czytnika USB Athena Smartcard Solutions ASEDriveIIIe
 Group:		Libraries
 Requires:	pcsc-lite >= 1.2.0
 
